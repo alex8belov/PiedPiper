@@ -16,9 +16,41 @@
     font-style: normal;
     font-weight: bold;
 }
+ul, li {
+    margin: 0;
+    padding: 0;
+}
 body {
     font-family: "RobotoRegular";
 }
 .italic {
     font-family: "RobotoItalic";
+}
+.header {
+    background-color: #007765;
+    padding: 18px 20px;
+}
+
+.nav {
+    display: inline-block;
+
+} 
+.nav-list {
+    display: inline-block;
+    list-style-type: none;
+}
+.nav-item {
+    display: inline-block;
+    padding-right: 10px;
+}
+ .nav-item:not(:first-child) {
+    padding-left: 10px;
+    border-left: 1px solid #fff;
+}
+.nav-link {
+    text-decoration: none;
+    color: #fff;
+}
+.nav-link:hover {
+    color: #ddd;
 }

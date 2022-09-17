@@ -27,16 +27,20 @@ body {
     font-family: "RobotoItalic";
 }
 .header {
+    box-sizing: border-box;
+    position: fixed;
+    top: 0px;
+    padding: 20px 0;
+    width: 100%;
+    height: 84px;
     background-color: #007765;
-    padding: 18px 20px;
 }
 
 .nav {
     display: inline-block;
-
 } 
 .nav-list {
-    display: inline-block;
+    height: 100%;
     list-style-type: none;
 }
 .nav-item {
@@ -53,4 +57,106 @@ body {
 }
 .nav-link:hover {
     color: #ddd;
+}
+.first-section {
+    background-image: url("../img/image-1.jpg");
+    background-position: center;
+}
+.main-title {
+    color: #fff;
+    margin-top: 84px;
+    font-size: 72px;
+    font-weight: 500;
+    text-align: center;
+    padding: 160px 0;
+}
+.container {
+    width: 1219px;
+    padding: 0 55px 90px;
+    margin: 0 auto;
+}
+.section-slogan {
+    background-image: url("/img/image-2.jpg");
+    background-position: center;
+}
+.container-slogan {
+    width: 900px;
+    padding: 80px 10px;
+    margin: 0 auto;
+}
+.slogan {
+    font-style: italic;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.intro-paragraph {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+}
+.intro-paragraph:first-of-type {
+    background-image: url(/img/PPC-Logo.png);
+    background-repeat: no-repeat;
+    padding-left: 160px;
+}
+.team-section {
+    background-color: #EEEEEE;
+}
+.container-team {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 120px;
+}
+
+.team-item {
+    display: inline-block;
+    margin-right: 212px;
+    margin-bottom: 80px;
+    margin-top: 50px;
+}
+.team-item:nth-of-type(3n) {
+    margin-right: 0;
+}
+.portrait {
+    border-radius: 50%;
+}
+.name {
+    color:#007765;
+    font-weight: 700;
+    font-size: 24px;
+    margin: 0;
+    margin-top: 12px;
+}
+.job {
+    margin: 0;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+}
+.problem-section {
+    font-size: 32px;
+    font-weight: 400;
+}
+.section-title {
+    color: #007765;
+    font-size: 64px;
+    text-align: center;
+    margin: 48px 0 16px;
+}
+.footer {
+    background-color: #333333;
+    padding: 50px 0 62px;
+}
+.footer-container {
+    width: 540px;
+    margin: 0 auto;
+}
+.footer-text {
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
 }
